@@ -1,0 +1,9 @@
+pipeline {
+agent any 
+stages {
+stage('build stage') {
+echo " this  is vishnu M"
+     }
+   }
+}
+
