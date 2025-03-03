@@ -1,9 +1,10 @@
 pipeline {
 agent any 
 stages {
-stage('build stage') {
-echo "this  is vishnu M"
-     }
-   }
+stage('branch test') {
+steps {
+        echo "the branch name is ${env.BRANCH_NAME}"
+      }
+    }
+  }
 }
-
